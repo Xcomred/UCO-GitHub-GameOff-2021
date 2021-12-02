@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 02ac586184d37c540bcdc8c5002679b6
   - enabled: 1
-    path: Assets/Scenes/Light_Flicker_TestAssets_map.unity
-    guid: 6638d9c19fb1f3c479dd8517d8783dd2
-  - enabled: 1
-    path: Assets/Scenes/Boss Scene.unity
-    guid: 0db899dd8230cee45b8d4efc0dca89ca
-  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: bb781bd8b25b79e4c9c92113697cbc7a
+  - enabled: 1
+    path: Assets/Scenes/FirstLevel.unity
+    guid: 562662642ada61c41bd2f0b55993063c
+  - enabled: 1
+    path: Assets/Scenes/Boss Scene.unity
+    guid: 322957e13aa5f9046ad62b9cadfed285
   m_configObjects: {}

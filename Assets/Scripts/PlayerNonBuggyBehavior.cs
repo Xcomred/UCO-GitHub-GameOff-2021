@@ -103,8 +103,9 @@ public class PlayerNonBuggyBehavior : MonoBehaviour
 
         string binary = binaryGunString[currentBinaryBullet].ToString();
 
+        Debug.Log("FIRE");
         GameObject bullet = Instantiate(binaryBullet, transform.position, new Quaternion()); // TODO figure out rotation next
-
+        Debug.Log("FIRE 2");
         bullet.GetComponent<BinaryBulletBehavior>().SetText(binary);
         bullet.GetComponent<Rigidbody2D>().velocity = Vector2.left * -lastFacingDirection * bulletSpeed * Time.deltaTime;
 
